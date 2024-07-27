@@ -13,4 +13,4 @@ export const useProfileStore = create<ProfileState>((set) => ({
     changeProfile: (name: string, email: string) => {
         set({ name: name, email: email });
     },
-}));
+}));    
